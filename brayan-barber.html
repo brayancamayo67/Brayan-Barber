@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brayan Barber | Barbería clásica con estilo moderno</title>
+<meta name="description" content="Brayan Barber: cortes, barba, cuidado facial y spa masculino. Barbería clásica con tendencias modernas. Servicios desde $25.000 COP. Reserva tu cita por WhatsApp.">
+<meta name="theme-color" content="#1E4A3C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brayan Barber | Barbería clásica con estilo moderno">
+<meta property="og:description" content="Cortes, barba, cuidado facial y spa masculino desde $25.000 COP. Reserva en menos de un minuto.">
+<meta property="og:locale" content="es_CO">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%88%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "Brayan Barber",
+  "description": "Barbería que combina la tradición clásica con las tendencias modernas del estilo masculino.",
+  "priceRange": "$25.000 - $50.000 COP",
+  "currenciesAccepted": "COP",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de Brayan Barber",
+    "itemListElement": [
+      {"@type": "Offer", "priceCurrency": "COP", "price": "25000", "itemOffered": {"@type": "Service", "name": "Corte y Diseño Tradicional"}},
+      {"@type": "Offer", "priceCurrency": "COP", "price": "30000", "itemOffered": {"@type": "Service", "name": "Cuidado Integral de Corte y Facial"}},
+      {"@type": "Offer", "priceCurrency": "COP", "price": "45000", "itemOffered": {"@type": "Service", "name": "Experiencia de Spa Masculino"}},
+      {"@type": "Offer", "priceCurrency": "COP", "price": "50000", "itemOffered": {"@type": "Service", "name": "Experiencia VIP Todo Incluido"}}
+    ]
+  }
+}
+</script>
+
+<script>
+/* Aplica el tema guardado antes de pintar para evitar parpadeos */
+try { var t = localStorage.getItem("brayan-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+
+<style>
+  :root {
+    --bg: #EEF1EC;
+    --surface: #FAFBF8;
+    --ink: #14251E;
+    --muted: #47594F;
+    --line: #C7D1C9;
+    --primary: #1E4A3C;
+    --ring: #1E4A3C;
+    --accent-text: #1E4A3C;
+    --btn-bg: #1E4A3C;
+    --btn-ink: #FFFFFF;
+    --brass: #B88A2E;
+    --red: #A32638;
+    --green-stripe: #2C6B57;
+    --bone: #F4F1E8;
+    --flag-bg: #1E4A3C;
+    --flag-ink: #F3F6F1;
+    --flag-accent: #E6C676;
+    --focus: #A32638;
+    --err: #A32638;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0E1914;
+      --surface: #15251E;
+      --ink: #EAF1EB;
+      --muted: #A6B7AD;
+      --line: #2B4036;
+      --primary: #D8B45B;
+      --ring: #D8B45B;
+      --accent-text: #E2C06F;
+      --btn-bg: #D8B45B;
+      --btn-ink: #1A1405;
+      --flag-bg: #1D3A2E;
+      --flag-ink: #F3F6F1;
+      --flag-accent: #E6C676;
+      --focus: #F0C96A;
+      --err: #FF8D9B;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E1914;
+    --surface: #15251E;
+    --ink: #EAF1EB;
+    --muted: #A6B7AD;
+    --line: #2B4036;
+    --primary: #D8B45B;
+    --ring: #D8B45B;
+    --accent-text: #E2C06F;
+    --btn-bg: #D8B45B;
+    --btn-ink: #1A1405;
+    --flag-bg: #1D3A2E;
+    --flag-ink: #F3F6F1;
+    --flag-accent: #E6C676;
+    --focus: #F0C96A;
+    --err: #FF8D9B;
+  }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+
+  html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 72px); scroll-behavior: smooth; }
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    padding-bottom: 88px;
+    -webkit-text-size-adjust: 100%;
+  }
+  img, svg { max-width: 100%; }
+  h1, h2, h3 { font-family: var(--font-display); line-height: 1.12; margin: 0; letter-spacing: -0.01em; }
+  p { margin: 0; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px; }
+
+  .skip { position: absolute; left: 12px; top: -60px; background: var(--btn-bg); color: var(--btn-ink); padding: 10px 14px; border-radius: 8px; z-index: 50; text-decoration: none; font-weight: 600; }
+  .skip:focus { top: calc(env(safe-area-inset-top, 0px) + 8px); }
+
+  .wrap { width: 100%; max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 56px 0; }
+
+  /* Encabezado */
+  .site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .brand-pole { width: 14px; height: 34px; border-radius: 8px; border: 2px solid var(--ink);
+    background: repeating-linear-gradient(45deg, var(--red) 0 4px, var(--bone) 4px 8px, var(--green-stripe) 8px 12px, var(--bone) 12px 16px); }
+  .brand-name { font-family: var(--font-display); font-weight: 800; font-size: 1.25rem; line-height: 1; }
+  .brand-name small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 0.8rem; color: var(--muted); letter-spacing: 0.02em; margin-top: 3px; }
+  .bar-actions { display: flex; align-items: center; gap: 8px; }
+  .icon-btn { width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.15rem; }
+  .nav-link { display: none; text-decoration: none; font-weight: 600; padding: 10px 12px; border-radius: 10px; }
+  .nav-link:hover { background: var(--surface); }
+
+  /* Botones */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 12px 22px; border-radius: 12px; border: 2px solid var(--btn-bg); background: var(--btn-bg); color: var(--btn-ink); font: 700 1rem/1.2 var(--font-body); text-decoration: none; cursor: pointer; }
+  .btn:hover { filter: brightness(1.07); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  .btn.ghost:hover { border-color: var(--ink); filter: none; }
+
+  /* Hero */
+  .hero { padding: 36px 0 48px; }
+  .hero-grid { display: grid; grid-template-columns: 1fr 76px; gap: 20px; align-items: stretch; }
+  .hero h1 { font-weight: 800; font-size: clamp(2.2rem, 9.5vw, 4.4rem); }
+  .hero .lead { margin-top: 18px; font-size: 1.12rem; color: var(--muted); max-width: 34rem; }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+  .hero .note { margin-top: 14px; font-size: 0.95rem; color: var(--muted); }
+
+  .pole-wrap { display: flex; flex-direction: column; align-items: center; min-height: 300px; }
+  .cap { width: 68px; height: 18px; border-radius: 10px; background: linear-gradient(180deg, #E9CE85, var(--brass) 60%, #8A6420); flex: none; }
+  .pole { position: relative; flex: 1; width: 52px; overflow: hidden; background: var(--bone); border-left: 3px solid var(--ink); border-right: 3px solid var(--ink); }
+  .pole::before { content: ""; position: absolute; inset: -80px 0 0 0;
+    background: repeating-linear-gradient(45deg, var(--red) 0 14px, var(--bone) 14px 28px, var(--green-stripe) 28px 42px, var(--bone) 42px 56px);
+    animation: spin 3.2s linear infinite; }
+  .pole::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,0.22), rgba(255,255,255,0.30) 28%, rgba(255,255,255,0) 55%, rgba(0,0,0,0.20)); }
+  @keyframes spin { from { transform: translateY(0); } to { transform: translateY(79.196px); } }
+
+  /* Encabezados de sección */
+  .sec-head { max-width: 40rem; margin-bottom: 28px; }
+  .sec-head h2 { font-weight: 800; font-size: clamp(1.7rem, 6vw, 2.6rem); }
+  .sec-head p { margin-top: 12px; color: var(--muted); }
+
+  /* Nosotros */
+  .duo { display: grid; gap: 22px; }
+  .duo .col { border-left: 4px solid var(--brass); padding-left: 16px; }
+  .duo h3 { font-size: 1.35rem; font-weight: 600; margin-bottom: 6px; }
+  .duo p { color: var(--muted); }
+
+  /* Servicios */
+  .services { display: grid; gap: 16px; }
+  .svc { position: relative; display: flex; flex-direction: column; gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px 20px; }
+  .svc.is-selected { border-color: var(--ring); box-shadow: 0 0 0 2px var(--ring); }
+  .svc-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 14px; }
+  .svc h3 { font-size: 1.4rem; font-weight: 600; }
+  .price { font-family: var(--font-display); font-weight: 800; font-size: 1.55rem; color: var(--accent-text); white-space: nowrap; }
+  .price span { font-family: var(--font-body); font-weight: 600; font-size: 0.85rem; color: var(--muted); }
+  .svc .desc { color: var(--muted); }
+  .includes { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .includes li { position: relative; padding-left: 28px; }
+  .includes li::before { content: ""; position: absolute; left: 4px; top: 0.5em; width: 7px; height: 12px; border: solid var(--brass); border-width: 0 3px 3px 0; transform: rotate(40deg); }
+  .tag { align-self: flex-start; font-weight: 700; font-size: 0.9rem; padding: 4px 12px; border-radius: 999px; background: var(--flag-accent); color: #1A1405; }
+
+  .pick { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .pick-btn { margin-top: auto; display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 18px; border-radius: 12px; border: 2px solid var(--ring); color: var(--accent-text); font-weight: 700; cursor: pointer; text-align: center; }
+  .pick-btn .on { display: none; }
+  .pick:checked + .pick-btn { background: var(--btn-bg); border-color: var(--btn-bg); color: var(--btn-ink); }
+  .pick:checked + .pick-btn .on { display: inline; }
+  .pick:checked + .pick-btn .off { display: none; }
+  .pick:focus-visible + .pick-btn { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .svc.flagship { background: var(--flag-bg); color: var(--flag-ink); border-color: var(--flag-bg); }
+  .svc.flagship .desc { color: var(--flag-ink); opacity: 0.88; }
+  .svc.flagship .price { color: var(--flag-accent); }
+  .svc.flagship .price span { color: var(--flag-ink); opacity: 0.8; }
+  .svc.flagship .includes li::before { border-color: var(--flag-accent); }
+  .svc.flagship.is-selected { box-shadow: 0 0 0 2px var(--flag-accent); border-color: var(--flag-accent); }
+  .svc.flagship .pick-btn { border-color: var(--flag-accent); color: var(--flag-accent); }
+  .svc.flagship .pick:checked + .pick-btn { background: var(--flag-accent); border-color: var(--flag-accent); color: #1A1405; }
+  .svc.flagship .pick:focus-visible + .pick-btn { outline-color: var(--flag-accent); }
+
+  /* Pasos */
+  .steps { list-style: none; counter-reset: paso; padding: 0; margin: 0; display: grid; gap: 18px; }
+  .steps li { counter-increment: paso; display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start; }
+  .steps li::before { content: counter(paso); width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font: 800 1.2rem var(--font-display); background: var(--btn-bg); color: var(--btn-ink); }
+  .steps strong { display: block; font-size: 1.1rem; }
+  .steps span { color: var(--muted); }
+
+  /* Reserva */
+  .book { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .form { display: grid; gap: 18px; max-width: 34rem; }
+  .field { display: grid; gap: 6px; }
+  .field label { font-weight: 600; }
+  .field .hint { font-size: 0.9rem; color: var(--muted); }
+  .input { width: 100%; min-height: 50px; padding: 12px 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); font: 500 1rem var(--font-body); }
+  textarea.input { min-height: 96px; resize: vertical; }
+  .input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-color: var(--ink); }
+  .input[aria-invalid="true"] { border-color: var(--err); }
+  .err { color: var(--err); font-weight: 600; font-size: 0.95rem; min-height: 0; }
+  .row { display: grid; gap: 18px; }
+  .summary { border: 2px dashed var(--ring); border-radius: 14px; padding: 14px 16px; }
+  .summary b { color: var(--accent-text); }
+  .confirm { border-radius: 16px; background: var(--flag-bg); color: var(--flag-ink); padding: 20px; display: grid; gap: 12px; max-width: 34rem; margin-top: 8px; }
+  .confirm h3 { font-size: 1.3rem; }
+  .confirm .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .confirm .btn { background: var(--flag-accent); border-color: var(--flag-accent); color: #1A1405; }
+  .confirm .btn.ghost { background: transparent; color: var(--flag-ink); border-color: var(--flag-ink); }
+  .confirm[hidden] { display: none; }
+
+  /* Visita */
+  .visit { display: grid; gap: 28px; }
+  .visit h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 8px; }
+  .hours { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; color: var(--muted); }
+  .social { display: flex; flex-wrap: wrap; gap: 10px; }
+  .social a { display: inline-flex; align-items: center; min-height: 46px; padding: 8px 16px; border: 2px solid var(--line); border-radius: 12px; text-decoration: none; font-weight: 600; background: var(--surface); }
+  .social a:hover { border-color: var(--ink); }
+
+  footer { padding: 28px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+
+  /* Barra inferior móvil */
+  .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: flex; align-items: center; gap: 12px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); background: var(--surface); border-top: 1px solid var(--line); transition: transform 0.25s ease, visibility 0.25s; }
+  .dock.is-hidden { transform: translateY(110%); visibility: hidden; }
+  .dock-info { flex: 1; min-width: 0; line-height: 1.25; }
+  .dock-info small { display: block; color: var(--muted); font-size: 0.82rem; }
+  .dock-info strong { display: block; font-size: 0.98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dock .btn { flex: none; min-height: 46px; padding: 10px 18px; }
+
+  @media (min-width: 760px) {
+    section { padding: 80px 0; }
+    .hero { padding: 64px 0 72px; }
+    .hero-grid { grid-template-columns: 1fr 130px; gap: 48px; }
+    .pole { width: 78px; }
+    .cap { width: 100px; height: 22px; }
+    .pole-wrap { min-height: 380px; }
+    .nav-link { display: inline-block; }
+    .duo { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .services { grid-template-columns: 1fr 1fr; }
+    .svc.flagship { grid-column: 1 / -1; }
+    .svc.flagship .includes { grid-template-columns: 1fr 1fr; }
+    .steps { grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .steps li { grid-template-columns: 1fr; }
+    .row { grid-template-columns: 1fr 1fr; }
+    .visit { grid-template-columns: 1fr 1fr; }
+    body { padding-bottom: 0; }
+    .dock { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .pole::before { animation: none; }
+    .dock { transition: none; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Brayan Barber, ir al inicio">
+      <span class="brand-pole" aria-hidden="true"></span>
+      <span class="brand-name">Brayan<small>Barber</small></span>
+    </a>
+    <div class="bar-actions">
+      <a class="nav-link" href="#servicios">Servicios</a>
+      <a class="nav-link" href="#visitanos">Visítanos</a>
+      <a class="btn" href="#reservar" style="min-height:44px;padding:8px 16px">Reservar</a>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Cambiar entre tema claro y oscuro">◐</button>
+    </div>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Tu barbería de confianza, con el estilo de hoy.</h1>
+        <p class="lead">En Brayan Barber mezclamos la barbería de siempre, con navaja, toalla caliente y buena conversación, con las tendencias más actuales del estilo masculino. Llegas con una idea y sales con un corte que se siente tuyo.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#reservar">Reservar mi cita</a>
+          <a class="btn ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <p class="note">Servicios desde $25.000 COP. Te confirmamos por WhatsApp.</p>
+      </div>
+      <div class="pole-wrap" aria-hidden="true">
+        <div class="cap"></div>
+        <div class="pole"></div>
+        <div class="cap"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" aria-labelledby="t-nosotros">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="t-nosotros">Lo clásico y lo nuevo caben en la misma silla.</h2>
+        <p>Somos un club donde cada visita empieza con una charla: qué te gusta, cómo es tu día a día y qué quieres proyectar. Luego nos encargamos del resto.</p>
+      </div>
+      <div class="duo">
+        <div class="col">
+          <h3>Barbería clásica</h3>
+          <p>Perfilado a navaja, toallas calientes, acabado prolijo y el ritmo tranquilo de las barberías de toda la vida.</p>
+        </div>
+        <div class="col">
+          <h3>Estilo masculino actual</h3>
+          <p>Cortes y diseños de barba al día, cuidado facial y productos premium para que tu look se mantenga bien después de salir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" aria-labelledby="t-servicios" style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="t-servicios">Nuestros servicios</h2>
+        <p>Toca “Elegir este servicio” en el que más te guste y lo llevamos directo a tu reserva.</p>
+      </div>
+
+      <div class="services" role="radiogroup" aria-label="Servicios de Brayan Barber">
+
+        <article class="svc" data-id="tradicional">
+          <div class="svc-head">
+            <h3>Corte y Diseño Tradicional</h3>
+            <p class="price">$25.000 <span>COP</span></p>
+          </div>
+          <p class="desc">Un corte pensado para ti: empezamos con una asesoría de imagen personalizada y terminamos con tu peinado listo para salir.</p>
+          <ul class="includes">
+            <li>Consultoría de imagen personalizada</li>
+            <li>Corte de cabello adaptado a tu estilo</li>
+            <li>Perfilado preciso</li>
+            <li>Peinado final con productos premium</li>
+            <li>Cuidado de cejas o diseño de barba</li>
+          </ul>
+          <input class="pick" type="radio" name="service" id="svc-tradicional" value="tradicional" data-name="Corte y Diseño Tradicional" data-price="25000">
+          <label class="pick-btn" for="svc-tradicional"><span class="off">Elegir este servicio</span><span class="on">Servicio elegido</span></label>
+        </article>
+
+        <article class="svc" data-id="integral">
+          <div class="svc-head">
+            <h3>Cuidado Integral de Corte y Facial</h3>
+            <p class="price">$30.000 <span>COP</span></p>
+          </div>
+          <p class="desc">Corte completo y un respiro para tu piel: sales con el cabello impecable y el rostro fresco.</p>
+          <ul class="includes">
+            <li>Corte de cabello completo</li>
+            <li>Peinado profesional</li>
+            <li>Tratamiento facial purificador e hidratante</li>
+          </ul>
+          <input class="pick" type="radio" name="service" id="svc-integral" value="integral" data-name="Cuidado Integral de Corte y Facial" data-price="30000">
+          <label class="pick-btn" for="svc-integral"><span class="off">Elegir este servicio</span><span class="on">Servicio elegido</span></label>
+        </article>
+
+        <article class="svc" data-id="spa">
+          <div class="svc-head">
+            <h3>Experiencia de Spa Masculino</h3>
+            <p class="price">$45.000 <span>COP</span></p>
+          </div>
+          <p class="desc">Un ritual completo de renovación para quienes quieren desconectarse un rato y salir como nuevos.</p>
+          <ul class="includes">
+            <li>Corte característico de la casa</li>
+            <li>Diseño e hidratación de la barba</li>
+            <li>Tratamiento facial intensivo con vapor de ozono</li>
+            <li>Mascarilla facial</li>
+          </ul>
+          <input class="pick" type="radio" name="service" id="svc-spa" value="spa" data-name="Experiencia de Spa Masculino" data-price="45000">
+          <label class="pick-btn" for="svc-spa"><span class="off">Elegir este servicio</span><span class="on">Servicio elegido</span></label>
+        </article>
+
+        <article class="svc flagship" data-id="vip">
+          <span class="tag">Servicio insignia</span>
+          <div class="svc-head">
+            <h3>Experiencia VIP Todo Incluido</h3>
+            <p class="price">$50.000 <span>COP</span></p>
+          </div>
+          <p class="desc">Lo mejor de Brayan Barber en una sola visita: te atendemos de pies a cabeza, sin afanes, con todos los detalles.</p>
+          <ul class="includes">
+            <li>Corte personalizado</li>
+            <li>Cuidado completo de barba y cejas</li>
+            <li>Tratamiento facial premium</li>
+            <li>Exfoliación del cuero cabelludo</li>
+            <li>Toalla caliente relajante</li>
+            <li>Bebida de cortesía</li>
+          </ul>
+          <input class="pick" type="radio" name="service" id="svc-vip" value="vip" data-name="Experiencia VIP Todo Incluido" data-price="50000">
+          <label class="pick-btn" for="svc-vip"><span class="off">Elegir este servicio</span><span class="on">Servicio elegido</span></label>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="como-reservar" aria-labelledby="t-pasos" style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="t-pasos">Reservar es rápido</h2>
+      </div>
+      <ol class="steps">
+        <li><div><strong>Elige tu servicio</strong><span>Mira el menú y escoge el que va con tu plan del día.</span></div></li>
+        <li><div><strong>Dinos día y hora</strong><span>Selecciona un horario disponible y déjanos tus datos.</span></div></li>
+        <li><div><strong>Confirma por WhatsApp</strong><span>Te abrimos el chat con tu reserva ya escrita. Solo la envías.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="book" id="reservar" aria-labelledby="t-reservar">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="t-reservar">Reserva tu cita</h2>
+        <p>Completa los datos y te llevamos a WhatsApp con el mensaje listo. Tu cita queda confirmada cuando te respondamos.</p>
+      </div>
+
+      <form class="form" id="bookingForm" novalidate>
+        <div class="field">
+          <label for="service">Servicio</label>
+          <select class="input" id="service" required aria-describedby="e-service"></select>
+          <p class="err" id="e-service" aria-live="polite"></p>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="date">Día</label>
+            <input class="input" type="date" id="date" required aria-describedby="e-date">
+            <p class="err" id="e-date" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="time">Hora</label>
+            <select class="input" id="time" required aria-describedby="e-time">
+              <option value="">Primero elige el día</option>
+            </select>
+            <p class="err" id="e-time" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="name">Tu nombre</label>
+          <input class="input" type="text" id="name" autocomplete="name" required aria-describedby="e-name">
+          <p class="err" id="e-name" aria-live="polite"></p>
+        </div>
+
+        <div class="field">
+          <label for="phone">Tu celular</label>
+          <input class="input" type="tel" id="phone" inputmode="tel" autocomplete="tel" placeholder="300 123 4567" required aria-describedby="h-phone e-phone">
+          <p class="hint" id="h-phone">Para confirmarte la cita.</p>
+          <p class="err" id="e-phone" aria-live="polite"></p>
+        </div>
+
+        <div class="field">
+          <label for="notes">¿Algo que debamos saber? (opcional)</label>
+          <textarea class="input" id="notes" placeholder="Ejemplo: quiero un degradado bajo y conservar el largo arriba."></textarea>
+        </div>
+
+        <div class="summary" aria-live="polite" id="summary">Aún no has elegido un servicio.</div>
+
+        <button class="btn" type="submit">Enviar reserva por WhatsApp</button>
+      </form>
+
+      <div class="confirm" id="confirm" role="status" tabindex="-1" hidden>
+        <h3>Tu reserva está lista para enviar</h3>
+        <p>Si WhatsApp no se abrió solo, toca el botón. El mensaje ya va escrito con tus datos.</p>
+        <div class="actions">
+          <a class="btn" id="waLink" href="#" target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+          <button class="btn ghost" type="button" id="copyBtn">Copiar mensaje</button>
+        </div>
+        <p id="copyMsg" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="visitanos" aria-labelledby="t-visita">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="t-visita">Visítanos y síguenos</h2>
+      </div>
+      <div class="visit">
+        <div>
+          <h3>Horario de atención</h3>
+          <ul class="hours">
+            <li>Lunes a sábado: 9:00 a. m. a 7:00 p. m.</li>
+            <li>Domingos: cerrado</li>
+          </ul>
+          <p style="margin-top:14px;color:var(--muted)">¿Dudas sobre un servicio o tu estilo? Escríbenos por WhatsApp y te orientamos.</p>
+        </div>
+        <div>
+          <h3>Nuestras redes</h3>
+          <div class="social">
+            <!-- Reemplaza estos enlaces por las cuentas oficiales de Brayan Barber -->
+            <a href="https://instagram.com/brayanbarber" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://tiktok.com/@brayanbarber" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://facebook.com/brayanbarber" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://wa.me/573147470767" target="_blank" rel="noopener noreferrer" id="waDirect">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Brayan Barber. Barbería clásica, estilo moderno.</div>
+</footer>
+
+<div class="dock" id="dock">
+  <div class="dock-info" aria-live="polite">
+    <small>Tu servicio</small>
+    <strong id="dockText">Elige uno del menú</strong>
+  </div>
+  <a class="btn" href="#reservar">Reservar</a>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ====== CONFIGURACIÓN: edita estos valores ====== */
+  var CONFIG = {
+    whatsapp: "573147470767",   // Número con indicativo de país, sin + ni espacios
+    openHour: 9,                // Hora de apertura (24 h)
+    closeHour: 19,              // Hora de cierre (24 h)
+    slotMinutes: 30,            // Duración de cada franja
+    closedDays: [0],            // 0 = domingo
+    leadMinutes: 30             // Anticipación mínima para citas del mismo día
+  };
+
+  var $ = function (s) { return document.querySelector(s); };
+  var pad = function (n) { return String(n).padStart(2, "0"); };
+  var cop = function (n) { return "$" + new Intl.NumberFormat("es-CO").format(n) + " COP"; };
+
+  var radios = Array.prototype.slice.call(document.querySelectorAll('input[name="service"]'));
+  var select = $("#service"), dateEl = $("#date"), timeEl = $("#time");
+  var nameEl = $("#name"), phoneEl = $("#phone"), notesEl = $("#notes");
+  var summary = $("#summary"), dockText = $("#dockText"), dock = $("#dock");
+
+  $("#waDirect").href = "https://wa.me/" + CONFIG.whatsapp;
+
+  /* ---- Selector de servicio sincronizado con las tarjetas ---- */
+  select.innerHTML = '<option value="">Elige un servicio</option>' + radios.map(function (r) {
+    return '<option value="' + r.value + '">' + r.dataset.name + " (" + cop(+r.dataset.price) + ")</option>";
+  }).join("");
+
+  function current() {
+    var r = radios.filter(function (x) { return x.checked; })[0];
+    return r ? { id: r.value, name: r.dataset.name, price: +r.dataset.price } : null;
+  }
+
+  function refreshService() {
+    var s = current();
+    radios.forEach(function (r) { r.closest(".svc").classList.toggle("is-selected", r.checked); });
+    select.value = s ? s.id : "";
+    dockText.textContent = s ? s.name + " · " + cop(s.price) : "Elige uno del menú";
+    summary.innerHTML = s ? "Tu servicio: <b>" + s.name + "</b>, " + cop(s.price) + "." : "Aún no has elegido un servicio.";
+    if (s) clearErr("service");
+  }
+
+  radios.forEach(function (r) { r.addEventListener("change", refreshService); });
+  select.addEventListener("change", function () {
+    radios.forEach(function (r) { r.checked = r.value === select.value; });
+    refreshService();
+  });
+
+  /* ---- Fecha y horarios ---- */
+  var today = new Date();
+  dateEl.min = today.getFullYear() + "-" + pad(today.getMonth() + 1) + "-" + pad(today.getDate());
+
+  function buildSlots() {
+    var v = dateEl.value;
+    if (!v) { timeEl.innerHTML = '<option value="">Primero elige el día</option>'; return; }
+    var d = new Date(v + "T00:00:00");
+    if (CONFIG.closedDays.indexOf(d.getDay()) !== -1) {
+      timeEl.innerHTML = '<option value="">Ese día estamos cerrados. Elige otro.</option>';
+      return;
+    }
+    var limit = Date.now() + CONFIG.leadMinutes * 60000;
+    var opts = [];
+    for (var m = CONFIG.openHour * 60; m <= CONFIG.closeHour * 60 - CONFIG.slotMinutes; m += CONFIG.slotMinutes) {
+      var s = new Date(d); s.setHours(0, m, 0, 0);
+      if (s.getTime() > limit) {
+        opts.push('<option value="' + pad(s.getHours()) + ":" + pad(s.getMinutes()) + '">' +
+          s.toLocaleTimeString("es-CO", { hour: "numeric", minute: "2-digit", hour12: true }) + "</option>");
+      }
+    }
+    timeEl.innerHTML = opts.length
+      ? '<option value="">Elige una hora</option>' + opts.join("")
+      : '<option value="">No quedan horarios ese día. Prueba con otro.</option>';
+  }
+  dateEl.addEventListener("change", function () { buildSlots(); clearErr("date"); });
+  timeEl.addEventListener("change", function () { clearErr("time"); });
+  nameEl.addEventListener("input", function () { clearErr("name"); });
+  phoneEl.addEventListener("input", function () { clearErr("phone"); });
+
+  /* ---- Validación ---- */
+  var fields = { service: select, date: dateEl, time: timeEl, name: nameEl, phone: phoneEl };
+  function setErr(key, msg) { $("#e-" + key).textContent = msg; fields[key].setAttribute("aria-invalid", "true"); }
+  function clearErr(key) { var e = $("#e-" + key); if (e) e.textContent = ""; if (fields[key]) fields[key].removeAttribute("aria-invalid"); }
+
+  function normalizePhone(v) {
+    var d = v.replace(/\D/g, "");
+    if (d.length === 12 && d.indexOf("57") === 0) d = d.slice(2);
+    return /^3\d{9}$/.test(d) ? d : null;
+  }
+
+  function validate() {
+    var bad = [];
+    Object.keys(fields).forEach(clearErr);
+    if (!select.value) { setErr("service", "Elige un servicio para continuar."); bad.push("service"); }
+    if (!dateEl.value) { setErr("date", "Elige el día de tu cita."); bad.push("date"); }
+    else if (CONFIG.closedDays.indexOf(new Date(dateEl.value + "T00:00:00").getDay()) !== -1) {
+      setErr("date", "Ese día no atendemos. Elige otro."); bad.push("date");
+    }
+    if (!timeEl.value) { setErr("time", "Elige una hora disponible."); bad.push("time"); }
+    if (nameEl.value.trim().length < 2) { setErr("name", "Escribe tu nombre."); bad.push("name"); }
+    if (!normalizePhone(phoneEl.value)) { setErr("phone", "Escribe un celular de 10 dígitos, por ejemplo 300 123 4567."); bad.push("phone"); }
+    return bad;
+  }
+
+  /* ---- Envío a WhatsApp ---- */
+  var lastMessage = "";
+  $("#bookingForm").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var bad = validate();
+    if (bad.length) { fields[bad[0]].focus(); return; }
+
+    var s = current();
+    var d = new Date(dateEl.value + "T00:00:00");
+    var dateTxt = d.toLocaleDateString("es-CO", { weekday: "long", day: "numeric", month: "long" });
+    var timeTxt = timeEl.options[timeEl.selectedIndex].text;
+    var phone = normalizePhone(phoneEl.value);
+
+    var dayNice = dateTxt.charAt(0).toUpperCase() + dateTxt.slice(1);
+    lastMessage = [
+      "💈 *NUEVA RESERVA | Brayan Barber* 💈",
+      "",
+      "Hola 👋 Quiero reservar una cita con estos datos:",
+      "",
+      "✂️ *Servicio:* " + s.name,
+      "💰 *Precio:* " + cop(s.price),
+      "📅 *Día:* " + dayNice,
+      "🕒 *Hora:* " + timeTxt,
+      "",
+      "👤 *Nombre:* " + nameEl.value.trim(),
+      "📱 *Celular:* " + phone,
+      notesEl.value.trim() ? "📝 *Notas:* " + notesEl.value.trim() : null,
+      "",
+      "¡Gracias! Quedo atento a la confirmación 🙌✨"
+    ].filter(function (l) { return l !== null; }).join("\n");
+
+    var url = "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(lastMessage);
+    var box = $("#confirm");
+    $("#waLink").href = url;
+    $("#copyMsg").textContent = "";
+    box.hidden = false;
+    box.focus();
+    box.scrollIntoView({ behavior: "smooth", block: "center" });
+    try { window.open(url, "_blank", "noopener"); } catch (e) {}
+  });
+
+  $("#copyBtn").addEventListener("click", function () {
+    var out = $("#copyMsg");
+    try {
+      navigator.clipboard.writeText(lastMessage).then(
+        function () { out.textContent = "Mensaje copiado."; },
+        function () { out.textContent = "No pudimos copiarlo. Usa el botón de WhatsApp."; }
+      );
+    } catch (e) { out.textContent = "No pudimos copiarlo. Usa el botón de WhatsApp."; }
+  });
+
+  /* ---- Barra inferior: se oculta cuando ya estás en el formulario ---- */
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(function (entries) {
+      dock.classList.toggle("is-hidden", entries[0].isIntersecting);
+    }, { threshold: 0.12 }).observe($("#reservar"));
+  }
+
+  /* ---- Tema claro / oscuro ---- */
+  $("#themeBtn").addEventListener("click", function () {
+    var root = document.documentElement;
+    var explicit = root.getAttribute("data-theme");
+    var isDark = explicit ? explicit === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var next = isDark ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("brayan-theme", next); } catch (e) {}
+  });
+
+  refreshService();
+})();
+</script>
+</body>
+</html>
